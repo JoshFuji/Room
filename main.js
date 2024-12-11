@@ -102,8 +102,8 @@ window.addEventListener('pointerdown', (event) => {
                 }
             }, 1000);   
         
-         if (clickedObject.name === 'pokeball') {
-            console.log('Specific object clicked!');
+         if (clickedObject.name === 'Pokeball') {
+            console.log('Pokeball clicked!');
             audio2.play(); // Play the sound
             clickedObject.material.emissive.set(0x00ff00);  
             }
